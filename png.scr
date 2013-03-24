@@ -1,0 +1,21 @@
+DISPLAY ALL
+RATSNEST
+
+DISPLAY None
+DISPLAY Bottom Pads Vias
+EXPORT IMAGE bottom.png MONOCHROME 600
+
+DISPLAY None
+DISPLAY Top Pads Vias
+EXPORT IMAGE top.png MONOCHROME 600
+
+DISPLAY None
+DISPLAY Dimension bPlace bOrigin bNames bValues bDocu
+EXPORT IMAGE bottom_components.png MONOCHROME 600
+
+DISPLAY None
+DISPLAY Dimension tPlace tOrigin tNames tValues tDocu
+EXPORT IMAGE top_components.png MONOCHROME 600
+
+DISPLAY None
+DISPLAY Top Bottom Pads Vias Unrouted Dimension tPlace bPlace
